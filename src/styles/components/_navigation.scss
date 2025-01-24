@@ -8,12 +8,12 @@
       padding: 10px;
 
       li {
-        color: $color-1;
+        color: #61dafb;
         transition: 0.2s;
         cursor: pointer;
 
         &:hover {
-          color: $color-3;
+          color: #282c34;
         }
       }
     }
@@ -25,7 +25,7 @@
         content: "";
         height: 4px;
         width: 0;
-        background: $color-1;
+        background:#61dafb;
         position: absolute;
         border-radius: 10px;
         bottom: 0px;

@@ -1,5 +1,8 @@
-@import "./settings";
-@import "./components/navigation";
-@import "./components/logo";
-@import "./components/countries";
-@import "./components/card";
+@use "./mixins";
+@use "./variables";
+
+@use "./components/logo";
+@use "./components/countries";
+@use "./components/card";
+@use "./settings";
+@use "./components/navigation";
